@@ -8,11 +8,13 @@ import Providing from './Providing';
 function App() {
   return (
     <>
-      <Navbar />
+    <div>
+    <Navbar />
       <Main />
       <Providing />
       <IntrestingFect />
       <Projects />
+    </div>
     </>
   );
 }

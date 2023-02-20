@@ -2,7 +2,7 @@ import main from './Main.jpg';
 
 function Main() {
   return (
-    <div className="bg-black">
+    <div className="bg-black w-md-[1440px]">
       <div className='grid grid-cols-3 pl-20'>
         <div className='text-white my-24 z-40'>
           <h1 className='border-b-4 border-yellow-400 w-[70px]'>Welcome</h1>
