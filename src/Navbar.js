@@ -8,34 +8,34 @@ function Navbar() {
           <img src={logo} className="w-16 ml-auto" alt="logo" />
         </div>
         <div className='col-span-2 bg-white py-9'>
-        <div className='flex justify-center'>
-          <ul className='flex justify-end items-center gap-12 text-gray-500 bg-white'>
-            <li className='border-b-4 border-yellow-300'><a href=''> 
-              Home
-              </a> 
+          <div className='flex justify-center'>
+            <ul className='flex justify-end items-center gap-12 text-gray-500 bg-white'>
+              <li className='border-b-4 border-yellow-300'><div>
+                Home
+              </div>
               </li>
-            <li className='hover:border-b-4 border-yellow-300'><a href=''> 
-              About
-              </a> 
+              <li className='hover:border-b-4 border-yellow-300'><div>
+                About
+              </div>
               </li>
-            <li className='hover:border-b-4 border-yellow-300'><a href=''> 
-              Work
-              </a> 
+              <li className='hover:border-b-4 border-yellow-300'><div>
+                Work
+              </div>
               </li>
-            <li className='hover:border-b-4 border-yellow-300'><a href=''> 
-              Princing
-              </a> 
+              <li className='hover:border-b-4 border-yellow-300'><div>
+                Princing
+              </div>
               </li>
-            <li className='hover:border-b-4 border-yellow-300'><a href=''> 
-              Blogs
-              </a> 
+              <li className='hover:border-b-4 border-yellow-300'><div>
+                Blogs
+              </div>
               </li>
-            <li className='hover:border-b-4 border-yellow-300'><a href=''> 
-              Contact
-              </a> 
+              <li className='hover:border-b-4 border-yellow-300'><div>
+                Contact
+              </div>
               </li>
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

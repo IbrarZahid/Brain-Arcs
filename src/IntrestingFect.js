@@ -1,5 +1,4 @@
 import CountUp from 'react-countup';
-import logo from './Brainarcs-Logo.svg';
 
 function IntrestingFect() {
   return (
