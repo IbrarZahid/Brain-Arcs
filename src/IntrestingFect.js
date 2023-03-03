@@ -6,7 +6,7 @@ function IntrestingFect() {
       <div className='flex items-center gap-12'>
         <div className='text-white'>
           Some
-          <div className='text-6xl font-bold'>Intresting <br/> Facts</div>
+          <div className='text-6xl font-bold'>Intresting <br /> Facts</div>
         </div>
         <div className='text-white text-4xl text-center'>
           <CountUp start={0} end={500} duration={5} delay={1} />
