@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Staffing = () => {
+const About = () => {
   return (
     <div>
-      
+      about
     </div>
   );
 };
 
-export default Staffing;
+export default About;
