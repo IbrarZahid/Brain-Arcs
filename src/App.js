@@ -1,28 +1,28 @@
-import './App.css';
-import Footer from './Footer';
-import IntrestingFect from './IntrestingFect';
-import Main from './Main';
-import Navbar from './Navbar';
-import Pricing from './Pricing';
-import Projects from './Projects';
-import Providing from './Providing';
-import Sponserd from './Sponserd';
-
-function App() {
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./Components/Views/About/About";
+import Blog from "./Components/Views/Blogs/Blog";
+import Contact from "./Components/Views/Contact/Contact";
+import Home from "./Components/Views/home/Home";
+import Pricing from "./Components/Views/Pricing/Pricing";
+import Work from "./Components/Views/Work/Work";
+export default function App() {
   return (
-    <>
-    <div>
-    <Navbar />
-      <Main />
-      <Providing />
-      <IntrestingFect />
-      <Projects />
-      <Pricing />
-      <Sponserd />
-      <Footer />
-    </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blog />} />
+          <Route path="About" element={<About />} />
+          <Route path="Work" element={<Work />} />
+          <Route path="Pricing" element={<Pricing />} />
+          <Route path="Contact" element={<Contact />} />
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
