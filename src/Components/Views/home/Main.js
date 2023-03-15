@@ -34,7 +34,7 @@ function Main() {
         <div className='col-span-4 -ml-80 relative'>
           <div className='group absolute top-0 left-0 right-0 bottom-0 w-full rounded-xl '>
           <div className="h-full bg-black bg-opacity-100 flex justify-center items-center opacity-30 z-10" >
-            <video autoPlay loop ref={videoRef}
+            <video loop ref={videoRef}
               style={{
                 position: "absolute",
                 width: "100%",
@@ -43,6 +43,7 @@ function Main() {
                 height: "603px",
                 objectFit: "cover",
                 transform: "translate(-50%, -50%)",
+                backgroundImage: 'url{https://media.istockphoto.com/id/1186651737/photo/beauty-pastel-sky-soft-color-cloud-sweet-background.jpg?b=1&s=170667a&w=0&k=20&c=x603mALFT4ybBQUJeD7_u-xYbCOHRQhbJVuksFK1sVQ=}'
               }}
             >
               <source src={video} type="video/mp4" controls className='w-full' />

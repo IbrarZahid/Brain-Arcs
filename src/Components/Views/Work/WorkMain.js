@@ -17,7 +17,7 @@ function WorkMain(event) {
     }
   };
 return (
-  <div className="bg-black md:w-[768px] lg:w-full">
+  <div className="bg-black md:w-[768px] h-[600px] lg:w-full">
     <div className=''>
       <div className=''>
           <video autoPlay loop 
@@ -26,7 +26,7 @@ return (
             width: "100%",
             top: "40%",
             left: "50%",
-            height: "683px",
+            height: "630px",
             objectFit: "cover",
             transform: "translate(-50%, -50%)",
           }}

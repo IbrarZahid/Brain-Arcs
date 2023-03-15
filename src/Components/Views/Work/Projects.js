@@ -9,15 +9,15 @@ import project4 from '../../Assets/Images/project4.webp'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='mt-12'>
       <div className='text-center'>
         <div className='text-yellow-500 italic font-bold'>
           Projects
         </div>
         <div className='text-6xl text-slate-700 font-bold'>
-          Recents Projects
+          Our Projects
         </div>
-        <div className='font-light my-10'>
+        <div className='font-light my-16'>
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. <br /> Separated they live in
         </div>
       </div>
@@ -119,6 +119,18 @@ const Projects = () => {
           </div>
         </div>
       </div>
+    <div className='text-center'>
+    <div className="inline-block my-12">
+        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="#">&laquo;</a>
+        <a className='text-black float-left px-4 py-2 rounded-sm bg-yellow-400' href="#">1</a>
+        <a className="text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400" href="#">2</a>
+        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="#">3</a>
+        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="#">4</a>
+        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="#">5</a>
+        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="#">6</a>
+        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="#">&raquo;</a>
+      </div>
+    </div>
     </div>
   );
 };
