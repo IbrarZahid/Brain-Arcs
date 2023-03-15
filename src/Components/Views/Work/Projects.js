@@ -119,18 +119,18 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    <div className='text-center'>
-    <div className="inline-block my-12">
-        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">&laquo;</a>
-        <a className='text-black float-left px-4 py-2 rounded-sm bg-yellow-400' href="/">1</a>
-        <a className="text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400" href="/">2</a>
-        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">3</a>
-        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">4</a>
-        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">5</a>
-        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">6</a>
-        <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">&raquo;</a>
+      <div className='text-center'>
+        <div className="inline-block my-12">
+          <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">&laquo;</a>
+          <a className='text-black float-left px-4 py-2 rounded-sm bg-yellow-400' href="/">1</a>
+          <a className="text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400" href="/">2</a>
+          <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">3</a>
+          <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">4</a>
+          <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">5</a>
+          <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">6</a>
+          <a className='text-black float-left px-4 py-2 rounded-sm hover:bg-slate-400 active:bg-yellow-400' href="/">&raquo;</a>
+        </div>
       </div>
-    </div>
     </div>
   );
 };

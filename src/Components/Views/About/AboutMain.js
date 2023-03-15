@@ -7,8 +7,8 @@ function AboutMain() {
       <div className=''>
         <div className=''>
           <div className="relative" >
-            <img src={main} className="w-full h-[683px] object-cover ml-auto" alt="main" />
-            <div className='absolute top-1/4 left-44'>
+            <img src={main} className="w-full h-[683px] lg:h-[450px] object-cover ml-auto" alt="main" />
+            <div className='absolute top-1/4 left-44'> 
               <div className='text-7xl font-extrabold text-white'>
                 About Me
               </div>

@@ -3,7 +3,7 @@ import main from '../../Assets/Images/teamWork.mp4';
 
 function WorkMain(event) {
 return (
-  <div className="bg-black md:w-[768px] h-[600px] lg:w-full">
+  <div className="bg-black md:w-[768px] lg:h-600 h-[450px] lg:w-full">
     <div className=''>
       <div className=''>
           <video autoPlay loop 

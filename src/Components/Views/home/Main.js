@@ -19,7 +19,7 @@ function Main() {
       <div className='grid grid-cols-5 pl-20'>
         <div className='text-white lg:my-24 md:my-12 z-50'>
           <h1 className='border-b-4 border-yellow-400 w-[70px]'>Welcome</h1>
-          <div className='xl:text-[72px] lg:text-[44px] md:text-[22px] xl:w-[450px] lg:w-[300px] md:w-[320px] font-extrabold mt-2 leading-tight'>
+          <div className='xl:text-[52px] lg:text-[44px] md:text-[22px] xl:w-[480px] lg:w-[300px] md:w-[320px] font-extrabold mt-2 leading-tight'>
             We Help to Build You the Product
           </div>
           <h1 className='text-2xl'>
@@ -38,7 +38,7 @@ function Main() {
                 width: "100%",
                 top: "50%",
                 left: "65%",
-                height: "603px",
+                height: "460px",
                 objectFit: "cover",
                 transform: "translate(-50%, -50%)",
                 backgroundImage: 'url{https://media.istockphoto.com/id/1186651737/photo/beauty-pastel-sky-soft-color-cloud-sweet-background.jpg?b=1&s=170667a&w=0&k=20&c=x603mALFT4ybBQUJeD7_u-xYbCOHRQhbJVuksFK1sVQ=}'
