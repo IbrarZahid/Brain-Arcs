@@ -2,12 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../Assets/Images/Brainarcs-Logo.svg';
 import { useLocation } from "react-router-dom";
-import About from '../About/About';
-import Blog from '../Blogs/Blog';
-import Contact from '../Contact/Contact';
-import Home from '../home/Home';
-import Pricing from '../home/Pricing';
-import Work from '../Work/Work';
 
 function Navbar() {
   const location = useLocation(); // once ready it returns the 'window.location' object

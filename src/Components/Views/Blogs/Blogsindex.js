@@ -9,8 +9,8 @@ const Blogsindex = () => {
       <div className='grid grid-cols-3 mt-12'>
         <div className='col-span-2'>
           <div className='grid grid-cols-2'>
-            <Link href='{}'>
-              <a>
+            <Link href='/'>
+              <a href='/'>
               <img src={Blog1} className="w-full h-[275px] object-cover" alt="main" />
               <div className='py-8 font-light'>SEP. 20, 2018 ADMIN </div>
               <div className='uppercase'>Even the all-powerful Pointing has no control about the blind texts</div>

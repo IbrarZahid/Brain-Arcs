@@ -1,5 +1,3 @@
-import main from '../../Assets/Images/main.webp';
-import ReactPlayer from 'react-player';
 import React, { useState, useRef } from 'react';
 import video from '../../Assets/Images/Web Development Promo _ Animation Video 2020 _.mp4';
 import { PauseCircleIcon, PlayCircleIcon } from '@heroicons/react/24/outline';
